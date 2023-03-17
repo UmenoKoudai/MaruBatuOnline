@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
-public class ClearJudge : MonoBehaviour
+public class ClearJudge : InstanceSystem<ClearJudge>
 {
     string[][] _judgeNum = { new string[] { "","",""}, new string[] {"","",""}, new string[] {"","",""} };
     public string[][] JudeNum { get => _judgeNum; set => _judgeNum = value; }
