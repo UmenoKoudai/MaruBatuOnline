@@ -363,13 +363,13 @@ MonoBehaviour:
       - m_Target: {fileID: 412241316}
         m_TargetAssemblyTypeName: SelectButton, Assembly-CSharp
         m_MethodName: PushButton
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 1 0
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &50080424
@@ -498,13 +498,13 @@ MonoBehaviour:
       - m_Target: {fileID: 412241316}
         m_TargetAssemblyTypeName: SelectButton, Assembly-CSharp
         m_MethodName: PushButton
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 0 2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &52682620
@@ -709,13 +709,13 @@ MonoBehaviour:
       - m_Target: {fileID: 412241316}
         m_TargetAssemblyTypeName: SelectButton, Assembly-CSharp
         m_MethodName: PushButton
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 0 0
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &56958877
@@ -1114,13 +1114,13 @@ MonoBehaviour:
       - m_Target: {fileID: 412241316}
         m_TargetAssemblyTypeName: SelectButton, Assembly-CSharp
         m_MethodName: PushButton
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 1 1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &189017415
@@ -1247,6 +1247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 412241317}
   - component: {fileID: 412241316}
+  - component: {fileID: 412241318}
   m_Layer: 0
   m_Name: System
   m_TagString: Untagged
@@ -1283,6 +1284,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &412241318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412241315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0764b964ede5b43448ea4de59f13d1a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &444820392
 GameObject:
   m_ObjectHideFlags: 0
@@ -1371,13 +1384,13 @@ MonoBehaviour:
       - m_Target: {fileID: 412241316}
         m_TargetAssemblyTypeName: SelectButton, Assembly-CSharp
         m_MethodName: PushButton
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 2 0
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &444820395
@@ -1693,13 +1706,13 @@ MonoBehaviour:
       - m_Target: {fileID: 412241316}
         m_TargetAssemblyTypeName: SelectButton, Assembly-CSharp
         m_MethodName: PushButton
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 0 1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &694233602
@@ -2170,13 +2183,13 @@ MonoBehaviour:
       - m_Target: {fileID: 412241316}
         m_TargetAssemblyTypeName: SelectButton, Assembly-CSharp
         m_MethodName: PushButton
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 2 2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1092871370
@@ -2533,13 +2546,13 @@ MonoBehaviour:
       - m_Target: {fileID: 412241316}
         m_TargetAssemblyTypeName: SelectButton, Assembly-CSharp
         m_MethodName: PushButton
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 2 1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1267222337
@@ -2972,13 +2985,13 @@ MonoBehaviour:
       - m_Target: {fileID: 412241316}
         m_TargetAssemblyTypeName: SelectButton, Assembly-CSharp
         m_MethodName: PushButton
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 1 2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1428160255

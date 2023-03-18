@@ -53,7 +53,7 @@ public class ClearJudge : InstanceSystem<ClearJudge>
             for(int i = 0; i < 3; i++)
             {
                 leftUp[i] = _judgeNum[i][i];
-                rightUp[i] = _judgeNum[i][3 - i];
+                rightUp[i] = _judgeNum[i][2 - i];
             }
             if (string.Join("", leftUp) == "ZZZ" || string.Join("", rightUp) == "ZZZ")
             {

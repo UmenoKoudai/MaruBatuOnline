@@ -6,7 +6,7 @@ using System;
 public class InstanceSystem<T> : MonoBehaviour where T : MonoBehaviour
 {
     static T _instance;
-    public static T Inctance
+    public static T Instance
     {
         get
         {

@@ -22,6 +22,8 @@ public class SelectButton : MonoBehaviour
                 selectButton.gameObject.transform.GetChild(i).gameObject.SetActive(false);
             }
             selectButton.gameObject.transform.GetChild(0).gameObject.SetActive(true);
+            ClearJudge.Instance.JudeNum[nums[0]][nums[1]] = "〇";
+            ClearJudge.Instance.Judge();
         }
         if(_batu)
         {
@@ -30,6 +32,8 @@ public class SelectButton : MonoBehaviour
                 selectButton.gameObject.transform.GetChild(i).gameObject.SetActive(false);
             }
             selectButton.gameObject.transform.GetChild(1).gameObject.SetActive(true);
+            ClearJudge.Instance.JudeNum[nums[0]][nums[1]] = "×";
+            ClearJudge.Instance.Judge();
         }
     }
 
