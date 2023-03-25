@@ -5,6 +5,7 @@ using Photon.Pun;
 using Photon.Realtime;
 using UnityEngine.UI;
 using ExitGames.Client.Photon;
+using UnityEngine.SceneManagement;
 
 public class NetWorkSystem : MonoBehaviourPunCallbacks
 {
@@ -86,6 +87,8 @@ public class NetWorkSystem : MonoBehaviourPunCallbacks
     //ƒ‹[ƒ€‚É“ü‚Á‚½
     public override void OnJoinedRoom()
     {
+        PhotonNetwork.IsMessageQueueRunning = false;
+        SceneManager.LoadSceneAsync("Game", LoadSceneMode.Single);
         Debug.Log("ƒ‹[ƒ€‚É“ü‚Á‚½");
     }
 
