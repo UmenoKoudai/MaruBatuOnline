@@ -32,7 +32,7 @@ public class NetWorkSystem : MonoBehaviourPunCallbacks
     }
 
     //ルームに入る
-    private void JoinRoom()
+    public void JoinRoom()
     {
         if(PhotonNetwork.IsConnected)
         {
@@ -56,66 +56,67 @@ public class NetWorkSystem : MonoBehaviourPunCallbacks
     public override void OnConnectedToMaster()
     {
         base.OnConnectedToMaster();
+        JoinLobby();
     }
 
     //ロビーに入った時
     public override void OnJoinedLobby()
     {
-        base.OnJoinedLobby();
+        Debug.Log("ロビーに入った");
     }
 
     //ロビーから出た時
     public override void OnLeftLobby()
     {
-        base.OnLeftLobby();
+        Debug.Log("ロビーに入れなかった");
     }
 
     //ルームが作成された時
     public override void OnCreatedRoom()
     {
-        base.OnCreatedRoom();
+        Debug.Log("ルームを作成した");
     }
 
     //ルームの作成に失敗した時
     public override void OnCreateRoomFailed(short returnCode, string message)
     {
-        base.OnCreateRoomFailed(returnCode, message);
+        Debug.Log("ルームを作成できなかった" + message);
     }
 
     //ルームに入った時
     public override void OnJoinedRoom()
     {
-        base.OnJoinedRoom();
+        Debug.Log("ルームに入った");
     }
 
     //ルームに入るのを失敗したとき
     public override void OnJoinRoomFailed(short returnCode, string message)
     {
-        base.OnJoinRoomFailed(returnCode, message);
+        Debug.Log("ルームに入れなかった" + message);
     }
 
     //ランダムなルームに入るのを失敗したとき
     public override void OnJoinRandomFailed(short returnCode, string message)
     {
-        base.OnJoinRandomFailed(returnCode, message);
+        Debug.Log("ランダムなルームに入れなかった" + message);
     }
 
     //ルームから出た時
     public override void OnLeftRoom()
     {
-        base.OnLeftRoom();
+        Debug.Log("ルームから出た");
     }
 
     //他のプレイヤーがルームに入ってきたとき
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
-        base.OnPlayerEnteredRoom(newPlayer);
+        Debug.Log(newPlayer.NickName + "が入室した");
     }
 
     //他のプレイヤーが出ていったとき
     public override void OnPlayerLeftRoom(Player otherPlayer)
     {
-        base.OnPlayerLeftRoom(otherPlayer);
+        Debug.Log(otherPlayer.NickName + "が退出した");
     }
 
     /////////////////////////////////////////
